@@ -24,7 +24,6 @@ export default function Home() {
                     <OptForm.Break/>
                     <OptForm.Input placeholder="Email address"/>
                     <OptForm.Button>Try it now</OptForm.Button>
-                    
                 </OptForm>
 
                </Feature>

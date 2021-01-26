@@ -22,6 +22,7 @@ export const Input = styled.input`
     height:70px;
     box-sizing:border-box;
     outline:none;
+    border-radius:3px;
 
     &:focus{
         background-color:#dedede;
@@ -40,6 +41,7 @@ export const Button = styled.button`
     border:0;
     cursor:pointer;
     outline:none;
+    border-radius:3px;
 
     &:hover{
         background-color:#f40612;
