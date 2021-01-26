@@ -21,6 +21,11 @@ export const Input = styled.input`
     padding:10px;
     height:70px;
     box-sizing:border-box;
+    outline:none;
+
+    &:focus{
+        background-color:#dedede;
+    }
 `;
 
 export const Button = styled.button`
@@ -34,6 +39,7 @@ export const Button = styled.button`
     font-size:26px;
     border:0;
     cursor:pointer;
+    outline:none;
 
     &:hover{
         background-color:#f40612;
