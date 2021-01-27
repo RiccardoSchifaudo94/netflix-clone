@@ -22,6 +22,7 @@ export const Error = styled.div`
     margin:0 0 16px;
     color:white;
     padding:15px 20px;
+    word-break: break-all;
 `;
 
 export const Base = styled.form`
