@@ -13,9 +13,9 @@ export default function Browse() {
 
         //console.log(series);
         //console.log(films);
-        //console.log(slides);
+        // console.log(slides);
         return (
-            <BrowseContainer slide={slides} />
+            <BrowseContainer slides={slides} />
         )
     
 }
